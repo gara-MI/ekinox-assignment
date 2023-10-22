@@ -15,7 +15,7 @@ default_db = {
 
 default_discounts = [
     SequelDiscount("Back to the Future", 
-                   [DiscountOption(2, 15), DiscountOption(3, 20)]),
+                   [DiscountOption(2, 10), DiscountOption(3, 20)]),
     SequelDiscount("Star trek", 
                    [DiscountOption(2, 15), DiscountOption(3, 20), DiscountOption(4, 25)])
     ]  # Sequel-specific discounts
